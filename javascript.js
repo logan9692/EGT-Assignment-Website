@@ -22,6 +22,7 @@ contrast.addEventListener('change', appearance);
         else if (lightmode.checked) {
             mode = "lightmode"
         }
+        
         else if (contrast.checked) {
             mode = "highcontrast"
             document.body.classList.remove("highlightLinks");
@@ -56,7 +57,7 @@ reduceTransparency.addEventListener('change', feature);
         }
 
     }
-
+ 
 // larger text
 
 const textSize = document.getElementById("textSize");

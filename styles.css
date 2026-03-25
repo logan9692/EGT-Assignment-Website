@@ -1760,6 +1760,12 @@ footer a {
     margin: auto;
 }
 
+@media (max-width: 625px) {
+    .orderForm {
+        width: 300px;
+    }
+}
+
 .form-title {
     color: rgb(50, 107, 70);
     font-size: 20px;
