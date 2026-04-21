@@ -30,6 +30,8 @@ contrast.addEventListener('change', appearance);
             highlightLinks.checked = false;
         }
 
+        // if mode is not empty, set mode to the chosen mode
+
         if (mode !== "") {
             document.body.classList.add(mode);
             localStorage.setItem("mode", mode);
